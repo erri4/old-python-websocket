@@ -4,7 +4,7 @@ from classes.Room import Room
 import WebsocketServer as ws
 
 
-REQUEST_HEADERS: dict[int, str] = {
+REQUEST_HEADERS = {
                                     0: 'login',
                                     1: 'reg',
                                     2: 'create',

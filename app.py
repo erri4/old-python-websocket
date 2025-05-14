@@ -13,7 +13,7 @@ def admin() -> str:
 
 @app.route('/')
 @app.route('/<custom_page>')
-def index(custom_page = None) -> (str | Response):
+def index(custom_page = None):
     """
     return the main page or redirect to the main page.
     """
