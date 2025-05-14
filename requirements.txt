@@ -1,7 +1,5 @@
 flask
 bcrypt
-PyMySQL
-dbutils
 cryptography
 python-dotenv
 https://erri4.github.io/package/filesforpip/WebsocketServer-0.1.4-py3-none-any.whl
